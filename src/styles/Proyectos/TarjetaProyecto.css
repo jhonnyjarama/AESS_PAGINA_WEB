@@ -1,0 +1,176 @@
+/*DISEÑO RESPONSIVE*/
+@media (600px > width){
+  .contenedor-proyecto{
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+  } 
+  img , a{
+    width: 350px;
+    padding: 0px;
+  }
+
+}
+
+.contenedor-general{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.contenedor-general-proyectos {
+
+  max-width: 100%;
+  gap: 20px;
+  padding: 15px ;
+  background: rgb(218, 219, 223);
+  align-items: center;
+
+}
+
+/*Media query para cambiar el diseño en pantallas más pequeñas*/
+
+.contenedor-proyectos {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 5PX 5PX #b9b9b9;
+  margin-top: 15px; 
+}
+
+.contenedor-imagen {
+  height: 30rem;
+  width: 30rem;
+  border-radius: 9px;
+}
+
+.contenedor-imagen img{
+  height: 100%;
+  width: 100%;
+  pointer-events: none;
+  border-radius: 9PX;
+}
+
+.contenedor-textos{
+font-size: 20px;
+margin-left: 20px;
+}
+
+.imagen-proyectos {
+  width: 250px;
+}
+
+.texto-proyectos{
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  width: 100%;
+  text-align:left;
+  margin-left: 5px;
+}
+
+
+/*botoooooones*/
+
+/*----Paginacion-------*/
+.controles-paginacion button {
+  padding: 10px 12px;
+  margin: 0 7px;
+  background-color: #000000be;
+  color: #fff;
+  border: 0px solid #000000be;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.controles-paginacion button:hover {
+  background-color: #0056b3;
+}
+/*---------------------*/
+
+/*------Boton Ver más--------*/
+
+#vermas {
+  background-color: #000000be;
+  color: #fff;
+  padding: 10px 20px;
+  margin: 15px;
+  border: none;
+  cursor: pointer;
+}
+/*----------------------------*/
+
+
+
+
+/* Estilo para la página actual */
+.controles-paginacion button.pagina-actual {
+  background-color: #b3a100;
+  color: #fff;
+  border: 0px solid #0056b3;
+}
+
+/*------------------------*/
+
+/*
+@media (500px < width){
+  
+  .contenedor-proyecto{
+    width: 1  000px;
+    height: 350px;
+  }
+  
+  img , a{
+    width: 450px;
+  }
+}
+*/
+/*-----------------------------*/
+
+.nombre-proyecto{
+  font-size: 1.3rem;
+}
+a, .imagen-proyecto{
+  max-width: 450px;
+  border-radius:1em;
+}
+.contenedor-separador{
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+.amarillo{
+  height: 0.6em;
+  width: 3.5em;
+  background:rgb(164, 121, 12);
+  padding: 0;
+}
+.marron{
+  height: 0.2em;
+  width: 16em;
+  background:rgb(51, 48, 0);
+  padding: 0;
+}
+.descripcion-proyecto{
+  text-align: justify;
+}
+.contenedor-texto-proyecto{
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 22em;
+  font-size: 1.3rem;
+  
+}
+.contenedor-proyecto{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 50px;
+}

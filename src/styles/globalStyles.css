@@ -1,0 +1,95 @@
+/* globalStyles.css */
+
+/* Reset de estilos y configuraciones iniciales *
+body,
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: #111;
+  background-color: #111; /* Fondo oscuro 
+  line-height: 1.6;
+}
+
+div::-webkit-scrollbar{
+  display: none;
+}
+
+h1,
+h2,
+h3 {
+  color: #111; /* Color de texto más claro 
+}
+
+/* Enlaces 
+a {
+  color: #6a7cff; /* Color de enlaces 
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+  color: #4d5eff; /* Color de enlaces al pasar el ratón 
+}
+
+/* Encabezados y secciones principales 
+header,
+footer,
+main {
+  padding: 20px;
+}
+
+/* Header 
+header {
+  background-color: #111;
+}
+
+/* Footer 
+footer {
+  background-color: #111;
+  color: #777;
+  text-align: center;
+  padding: 10px 0;
+}
+
+/* Botones 
+button {
+  background-color: #6a7cff; /* Color de fondo del botón 
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #4d5eff; /* Color de fondo del botón al pasar el ratón 
+}
+
+/* Secciones específicas */
+
+/* Noticias 
+.noticias-carousel,
+.noticias-grid {
+  /* Estilos específicos para las secciones de noticias 
+}
+
+/* Proyectos 
+.proyectos-lista,
+.otros-proyectos-carousel {
+  /* Estilos específicos para las secciones de proyectos 
+}
+
+/* Comunidad 
+.equipo-directivo-carousel,
+.colaboradores-grid,
+.mentores-grid {
+  /* Estilos específicos para la sección de comunidad 
+}*/

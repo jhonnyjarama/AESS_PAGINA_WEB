@@ -1,0 +1,97 @@
+.contenedor-pagina-universidad{
+  background: rgb(218, 219, 223);
+  width: 100%;
+  height: auto;
+  padding: 20px;
+  position: relative; 
+}
+
+.contenedor-titulo-universidad{
+  background-color: white;
+  font-size: 70px;
+  text-align: center;
+  width: 100%;
+  height: auto;
+  text-transform: uppercase;
+  border-radius: 9px;
+  padding: 2rem;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.contenedor-cardslider-universidad{
+  margin: 0 auto;
+  display: flex;
+  justify-content:flex-start;
+  overflow-x:hidden;
+  background-color: white;
+  height: 400px;
+  border-radius: 9px;
+  margin-top: 15px;
+}
+
+.cardslider-universidad{
+  display: flex;
+  justify-content: center;
+  cursor: grab;
+}
+
+.contenedor-imagen-card-universidad{
+  height: 25em;/*25rem*/
+  width: 50em;/*50rem*/
+  padding: 3rem;
+  border-radius: 9px;
+}
+
+.contenedor-imagen-card-universidad img{
+  height: 100%;
+  width: 100%;
+  pointer-events: none;
+  border-radius: 9px;
+}
+
+.contenedor-cardslider-universidad .cardslider-universidad .contenedor-imagen-card-universidad :is(img){
+  height: 100%;
+  width: 100%;
+  object-fit:contain;
+  transition: all 0.3s linear;
+}
+
+.contenedor-cardslider-universidad .cardslider-universidad .contenedor-imagen-card-universidad:hover :is(img){
+  transform: scale(1.1);
+}
+
+.contenedor-pagina-universidad .popup-media{
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  background: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  height: 100%;
+}
+
+.contenedor-pagina-universidad .popup-media :is(img){
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: block;
+  max-width: 95%;
+  max-height: 95%;
+  object-fit: contain;
+  border: 3px solid #fff;
+  border-radius: 9px;
+}
+
+.contenedor-pagina-universidad .popup-media span{
+  position: absolute;
+  top: 5px;
+  right: 20px;
+  font-size: 50px;
+  font-weight: bolder;
+  z-index: 100;
+  cursor: pointer;
+  color:#fff;
+  user-select: none;
+}

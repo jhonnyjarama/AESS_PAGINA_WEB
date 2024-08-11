@@ -1,0 +1,133 @@
+.container-Carrouseles {
+  width: 89%;
+  height: auto;
+  margin: 0 auto;
+  border-radius: 15px;
+}
+
+.title-Carrousellv {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 80px;
+  color: white;
+  margin-bottom: 50px;
+  text-shadow: 5px 5px 5px  #9faddd
+}
+
+.container-card-carrousel {
+  width: 100%;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+.imagen-carrousel {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.container-text {
+  padding: 30px 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.text-title {
+  text-align: center;
+  margin: 50px 0;
+  font-size: 60px;
+  color: white;
+}
+
+.text-parrafo {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.Btn {
+  padding: 20px;
+  border-radius: 15px;
+  background-color: #BEB6B6 ;
+  font-weight: bold;
+  text-align: center;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  width: 25%;
+  height: 25%;
+  color: white;
+}
+
+.slick-slide div {
+  margin: 0 0.3rem;
+}
+
+/*==================================================*/
+
+.container-Carrouseles .popup-media{
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  background: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  height: 100%;
+}
+
+.container-Carrouseles .popup-media :is(img){
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: block;
+  max-width: 95%;
+  max-height: 95%;
+  object-fit: contain;
+  border: 3px solid #fff;
+  border-radius: 9px;
+}
+
+.container-Carrouseles .popup-media span{
+  position: absolute;
+  top: 5px;
+  right: 20px;
+  font-size: 50px;
+  font-weight: bolder;
+  z-index: 100;
+  cursor: pointer;
+  color:#fff;
+  user-select: none;
+}
+
+.slick-prev{
+  background-size: 100%;
+  left: 5px;
+  z-index: 2;
+}
+
+.slick-next{
+  background-size: 100%;
+  right: 50px;
+  z-index: 2;
+}
+
+.slick-arrow::before{
+  color: rgb(190, 182, 182);
+  font-size: 70px;
+}
+
+.card-carrouselv{
+  background-color: black;
+  border-radius: 15px 15px 15px 15px;
+  height: 450px;
+  padding: 40px;
+  box-shadow: 5px 5px 5px  #444141;
+}
+
+.slick-slide .card-carrouselv{
+  margin-left: 20px;
+  margin-right: 20px;
+}
