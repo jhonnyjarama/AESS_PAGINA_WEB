@@ -6,7 +6,7 @@
   align-items: center;
   font-family: sans-serif;
   background-color: #000000;
-  height: 9.375rem;
+  /* height: 9.375rem; */
   z-index:10;
 }
 
@@ -17,14 +17,40 @@
   padding: 20px;
   transition: all 0.5s ease;
   font-weight: bolder;
-  font-size: 2.0rem;
+  font-size: 1.1rem;
   z-index:10;
+}
+
+.nav-list li {
+  position: relative;
+  display: inline-block; /* Esto es importante para que el pseudo-elemento se posicione correctamente */
 }
 
 .nav-list li a {
   text-decoration: none;
   color: #ececec;
-  z-index:10;
+  z-index: 10;
+  position: relative;
+}
+
+
+.nav-list li a::before {
+  content: '';
+  position: absolute;
+  width: 0%;
+  height: 2px; /* Ajusta el grosor de la línea */
+  bottom: -3px; 
+  left: 50%;
+  background-color: #ececec;
+  transform: translateX(-50%);
+  transition: width 0.4s ease;
+  z-index: -1; /* Asegúrate de que la línea esté detrás del texto */
+}
+
+.nav-list li a:hover::before {
+  width: 100%;
+  left: 50%;
+  transform: translateX(-50%) scaleX(1);
 }
 
 .container-logo {
@@ -36,7 +62,7 @@
 }
 
 .imagen_logo, .logo {
-  height: 100px;
+  height: 50px;
   width: 6.25rem;
   z-index:10;
 }
@@ -60,7 +86,7 @@
   top:0;
   left:0;
   width: 100%;
-  height: 100%;
+  height: 65%;
   border-radius: 0 0 80% 0;
 }
 
@@ -92,15 +118,15 @@
           position: absolute;
           margin-left: auto;
           margin-right: auto;
-          top: 30%;
+          top: 12%;
           left: 0;
           right: 0;
           text-align: center;
       } 
   .nav-list.nav-active a {
       display: inline-block;
-      margin-top: 2rem;
-      font-size: 1.5rem;
+      padding: 10px 0;
+      font-size: 1.1rem;
   }
 }
 
@@ -113,11 +139,19 @@
       margin: 0 20px 0px 20px;
     }
 
-    .imagen-logo,.logo {
+    /* .imagen-logo,.logo {
       width: 200px;
-    }
+    } */
 
     .container-logo {
       gap: 40px;
     }
+}
+
+figure {
+  margin: 0;
+}
+
+ul{
+  margin: 0;
 }

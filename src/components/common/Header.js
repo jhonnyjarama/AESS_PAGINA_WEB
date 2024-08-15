@@ -35,10 +35,10 @@ const Header = () => {
   return (
     <header className='container-header'>
          <div className="container-logo">
-           <figure className="imagen_Logo">
+           <figure className="">
               <img className="logo" src={imagen_Logo1} alt="imagen del logo1"/>
            </figure>
-           <figure className="imagen_Logo">
+           <figure className="">
                <img className="logo" src={imagen_Logo2} alt="imagen del logo2" />
            </figure>
          </div>
