@@ -2,7 +2,7 @@
   width: 100%;
   min-height: 100vh;
   width: 100%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+  background-image: linear-gradient(rgba(187, 187, 187, 0.441), rgba(206, 206, 206, 0.852)),
   url("../../Imagenes/Noticias/carina.jpg");
   background-size: 100% 100%;
   background-position: center;
@@ -12,7 +12,7 @@
 } 
   
   .contenedor-pagina-noticias-individuales{
-    /*background: rgb(218, 219, 223);*/
+    /* background: rgb(218, 219, 223); */
     width: 100%;
     height: auto;
     padding: 20px;
@@ -26,58 +26,72 @@
     width: 100%;
     height: auto;
     text-transform:uppercase;
-    border-radius: 9px;
+    border-radius: 15px;
     padding: 2rem;
     margin-bottom: 15px;
     background: rgba(0, 0, 0, 0.8);
   }
- 
+
+
   .contenedor-imagen-posts{
     display: flex;
-    gap: 15px;
-    height: auto; 
-  }
- 
-  .contenedores-izquierda{
+    align-content: center;
+    /* justify-content: space-between; */
     width: 100%;
-    height: 900PX;
-    padding: 30px;
-    background-color: black; 
-    border-radius: 9px;
-    background: rgba(0, 0, 0, 0.8);
+    height: auto;
+    /* gap: 15px; */
+    gap: 1%;
+    /* border: 3px solid red; */
+  }
+
+.contenedores-izquierda{
+  display: flex;
+  width: 40%;
+  height: auto;
+  border-radius: 15px;
+  background: rgba(0, 0, 0, 0.8);
+  background: transparent;
+  align-items: center;
+  justify-content: center;
   }
 
   .contenedores-izquierda img{
     width: 100%;
-    height: 100%;
-    border-radius: 9px;
+    border-radius: 15px;
   }
- 
+
   .contenedores-derecha{
+    /* border: 3px solid green; */
     display: grid;
     gap: 5px;
     width: 100%;
     height: auto; 
-    border-radius: 9px;
- }
- 
-  .contenedor-posts-noticia-secundario{
-    background-color: black;
-    text-align: left;
-    font-size: 25px;
-    width: 100%;
-    height: 730px;
-    padding: 40px;
-    border-radius: 9px;
-    background: rgba(0, 0, 0, 0.8);
-    text-align: justify;
-  }
+    border-radius: 15px;
+}
+
+.contenedor-posts-noticia-secundario{
+  /* border: 3px solid saddlebrown; */
+  text-align: left;
+  font-size: 1.4em;
+  line-height: normal;
+  width: 100%;
+  height: auto;
+  /* padding: 10px; */
+  border-radius: 15px;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.contenedor-posts-noticia-secundario p{
+  width: 100%;
+  /* border: 2px solid firebrick; */
+}
 
   .scrollbar-text{
-    height: 600px;
+    width: 100%;
+    height: auto;
     overflow-y: scroll;
-    width: 1150px;
     padding: 15px;
+    /* border: 2px solid teal; */
   }
 
   ::-webkit-scrollbar{
@@ -88,15 +102,15 @@
     background-color: #4ab4f6;
     border-radius: 12px;
   }
- 
+
   .contenedor-posts-leyenda{
-    background-color: black;
-    text-align: right;
-    font-size: 30px;
-    padding: 30px;
+    /* border: 2px solid khaki; */
+    text-align: left;
+    font-size: 1.2em;
+    padding: 15px;
     width: 100%;
-    height: 90%;
-    border-radius: 9px;
+    height: 100%;
+    border-radius: 15px;
     background: rgba(0, 0, 0, 0.8);
   }
 
@@ -111,14 +125,21 @@
     }
 
     .contenedores-izquierda{
+      width: 100%;
       height: auto;
     }
 
     .imagen-noticia-grande{
-     height: 100%;
+    height: 100%;
     }
 
     .contenedor-posts-noticia-secundario{
+      padding: 15px;
+      height: 100%;
+    }
+
+    .contenedor-posts-leyenda{
+      padding: 15px 30px;
       height: 100%;
     }
 
@@ -146,6 +167,7 @@
     }
 
     .contenedores-izquierda{
+      width: 100%;
       height: auto;
     }
 
@@ -154,14 +176,21 @@
     }
 
     .contenedor-posts-noticia-secundario{
+      padding: 15px;
+      height: 100%;
+    }
+
+    .contenedor-posts-leyenda{
+      padding: 15px 30px;
       height: 100%;
     }
 
     .contenedor-slider{
+      border: 10px solid rgba(1, 197, 7, 0.83);
       display: flex;
       height: auto;
       justify-content:flex-start;
-      background-color: ;
+      /* background-color: ;<-------- A ESTE LE FALTA VALOR */
       padding: 15px;
       gap: 50px;
       margin-top: 15px;
