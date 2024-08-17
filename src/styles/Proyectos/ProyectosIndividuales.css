@@ -34,44 +34,12 @@ body{
 }
 
 .contenedor-general-proyectos-individuales{
-  
   background: rgb(218, 219, 223);
-  max-width: 1600px;
-  
+  width: 100%;
   padding: 20px 100px;
   position: center;
   text-align: center;
   display: inline-block;
-}
-
-
-
-.contenedores-imagen{
-  width: 100%;
-  height: 800px;
-  padding: 30px;
-  background-color: rgb(255, 255, 255); 
-  border-radius: 9px;
-  margin-bottom: 15px;
-  
-}
-
-.contenedores-imagen img{
-  
-  width: 100%;
-  height: 100%;
-  border-radius: 9px;
-  cursor: pointer;
-  
-  
-  /*
-  width: 100%; 
-  height: 100%; 
-  object-fit: cover;
-  position: absolute;
-  top: 0; 
-  left: 0;
-  */
 }
 
 .contenedor-titulo{
@@ -86,12 +54,40 @@ body{
   margin-bottom: 15px;
 }
 
+.contenedores-imagen{
+  width: 100%;
+  height: auto;
+  padding: 30px;
+  background-color: rgb(255, 255, 255); 
+  border-radius: 9px;
+  margin-bottom: 15px;
+  
+}
+
+.contenedores-imagen img{
+  width: 100%;
+  height: auto;
+  border-radius: 9px;
+  cursor: pointer;
+  
+  
+  /*
+  width: 100%; 
+  height: 100%; 
+  object-fit: cover;
+  position: absolute;
+  top: 0; 
+  left: 0;
+  */
+}
+
 .contenedor-texto{
   background-color: white;
   text-align: left;
-  font-size: 25px;
+  font-size: 1.4em;
   width: 100%;
-  
+  height: auto;
+  line-height: normal;
   padding: 40px;
   border-radius: 9px;
 }
