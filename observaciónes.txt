@@ -1,0 +1,22 @@
+observaciónes:
+Inicio - Cristhian
+	-el tamaño de la letra demasiado nav(achicar la imagen)
+	-modificar el tamaño de las letras de nosotros
+	-footer el texto tiene que tener un alineamiento justificado y mirar el tema del tamaño
+	-acomodar el suscríbete el botón enviar debe estar abajo
+Noticia- Joaquin
+	-modificar el tema del tamaño
+	-Acomodar el pagino que no se vea brusco mirar proyectos
+Noticia-Individual :Alvaro
+	-mirar el tema del tamaño
+Proyecto-Indivudual
+	-acomodar proyecto el tamaño
+
+Proyecto-Jhonny
+	-cambiar el color- puede ser por una imagen
+	-modificar el texto individual+
+	-Que la imagen y el texto este dentro de un componente
+
+
+Comunidad
+	-Texto de nuestra organizacipin agrandar
