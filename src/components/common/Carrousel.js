@@ -55,14 +55,14 @@ const Carrousel= (props)=> {
                   Noticieros.map((item)=>(
                     <div >
                         <div className='card-carrouseln'>
-                          <figure className='imagen-carrousell'>
+                          <figure className='imagen-nosotros'>
                               <img src={item.imagen[0].imgs} alt=""/>
                           </figure>
-                          <div >
-                            <div className='content-titul'>
+                          <div>
+                            <div className='card-title'>
                               <p>{item.titulo}</p>
                             </div>
-                            <div className='texto-noticil'>
+                            <div className='card-paragraph'>
                               <p>{item.texto}</p>
                             </div>
                               <button type='button' class='btn btn-dark' onClick={() => navigate(`/NoticiasIndividuales/${item.id}`)}>Ver Más</button>
