@@ -1,3 +1,5 @@
 .image-gallery-slide .image-gallery-image {
-  object-fit: cover;
+  /* para acomodar imagenes */
+  /* object-fit: cover; */
+  object-fit: fill;
 }
