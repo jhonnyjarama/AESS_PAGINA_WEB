@@ -9,7 +9,7 @@ const SeccionNosotros=()=> {
         {nosotrosData.map(nosotro => (
         <section className='container_description'>
             <div className='description_text'>
-              <h1 className='titulo_nosotross'>{nosotro.title}</h1>
+              <h1>{nosotro.title}</h1>
               <div >
                 <p>{nosotro.content}</p>
               </div>
