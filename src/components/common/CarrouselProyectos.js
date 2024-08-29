@@ -60,7 +60,7 @@ const CarrouselProyectos= (props)=> {
                         </figure>
                         <div >
                           <div className='content-titul'>
-                           <p className='text-titlel'>{item.titulo}</p>
+                           <p>{item.titulo}</p>
                           </div>
 
                           <div className="descripcion-proyecto">
