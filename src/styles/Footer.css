@@ -2,20 +2,21 @@ footer {
   width: 100%;
   background-color: black;
   color: white;
-  padding: 100px 0 30px;
+  padding: 50px 0 20px 0;
   font-size: 19px;
   line-height: 20px;
   font-family: sans-serif;
-  margin: 3% auto 0;
+  /* margin: 3% auto 0; */
 }
 
 .row {
-  width: 85%;
+  width: 100%;
   margin: auto;
   display: flex;
   flex-wrap: wrap;
   align-items: flex-start;
   justify-content: space-between;
+  padding: 0 20px;
   
 }
 
@@ -32,18 +33,20 @@ footer {
 .logo_footer {
   width: 250px;
   height: 100px;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
 }
 
-.text-descrip {
+#description_text {
   padding: 10px;
+  text-align: justify;
+  font-size: 18px;
 }
 
 .col h2 {
   width: fit-content;
   margin-bottom: 30px;
   position: relative;
-  font-size: 35px;
+  font-size: 24px;
 }
 
 .col h4{
@@ -52,6 +55,7 @@ footer {
 
 .col p{
   text-align: left;
+  font-size: 18px;
 }
 
 .email-id {
@@ -75,29 +79,30 @@ footer {
   color: white;
   display: inline-block;
   margin-top: 10px;
+  font-size: 20px;
 }
 
-.col form {
+/* .col form {
   padding-bottom: 15px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   border-bottom: 1px solid #ccc;
   margin-bottom: 50px;
-}
+} */
 
 .col form .fa-envelope {
   font-size: 18px;
   margin-right: 10px;
 }
 
-.col form input {
+/* .col form input {
   width: 100%;
   background: transparent;
   color: #ccc;
   border: 0;
   outline: none;
-}
+} */
 
 .col form button {
   /*background: transparent;*/
@@ -113,19 +118,6 @@ footer {
   color: #ccc;
 }
 
-.btnf {
-  padding: 20px;
-  border-radius: 10px;
-  background-color: rgb(88, 85, 85);
-  font-weight: bold;
-  text-align: center;
-  outline: none;
-  border: none;
-  cursor: pointer;
-  width: 40%;
-  color: white;
-  font-size: 20px;
-}
 
 .social-icons .fa-brands {
   width: 40px;
@@ -142,14 +134,15 @@ footer {
 }
 
 hr {
-width: 90%;
+width: 95%;
 border: 0;
-border-bottom: 1px solid #ccc;
+border-bottom: 2px solid #ccc;
 margin: 20px auto;
 }
 
 .copyright {
   text-align: center;
+  font-size: 15px;
 }
 .underline {
   width: 100%;
@@ -157,7 +150,7 @@ margin: 20px auto;
   background: #767676;
   border-radius: 4px;
   position: absolute;
-  top: 35px;
+  top: 28px;
   left: 0;
   overflow: hidden;
 }
@@ -169,9 +162,39 @@ margin: 20px auto;
   border-radius: 3px;
   position: absolute;
   top: 0;
+
   left: 10px;
   animation:  moving 2s linear infinite;
 }
+
+.form-suscripcion{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.frmtxt_email {
+  border: 2px solid white;
+  color: black;
+  width: 100%;
+  padding: 3px 10px;
+  font-size: 18px;
+}
+
+.btnf {
+  padding: 12px 24px;
+  border-radius: 10px;
+  background-color: rgb(88, 85, 85);
+  font-weight: bold;
+  text-align: center;
+  outline: none;
+  border: none;
+  cursor: pointer;  
+  color: white;
+  font-size: 18px;
+  width: fit-content;
+}
+
 
 @keyframes moving {
   0% {

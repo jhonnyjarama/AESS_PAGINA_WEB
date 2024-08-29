@@ -11,9 +11,7 @@ const Footer = () => {
 
         <div className="col">
             <img src={footerda.logoSrc} alt="logo" className="logo_footer"/>
-            <div className="text-descrip">
-                <p>{footerda.description}</p>
-            </div>
+            <p id="description_text">{footerda.description}</p>        
         </div>
 
         <div className="col">
@@ -36,9 +34,8 @@ const Footer = () => {
         
         <div className="col">
             <h2>Suscribirse<div className="underline"><span></span></div></h2>
-            <form action="email">
-                <i className="fa-regular fa-envelope"></i>
-                <input type="email" placeholder="Enter your email id" required/>
+            <form action="email"className="form-suscripcion">
+                <input type="email" className="frmtxt_email" placeholder="Enter your email id" required/>
                 <button type="submit" className="btnf">Enviar</button>
             </form>
             <div className="social-icons">
